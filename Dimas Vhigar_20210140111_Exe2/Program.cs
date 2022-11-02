@@ -63,6 +63,12 @@ namespace Dimas_Vhigar_20210140111_Exe2
                 }
             }
         }
+        static void Main(string[] args)
+        {
+            Program MyList = new Program();
+
+           
+        }
     }
 }
 
