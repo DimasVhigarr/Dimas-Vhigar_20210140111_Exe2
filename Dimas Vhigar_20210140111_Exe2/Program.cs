@@ -22,6 +22,10 @@ namespace Dimas_Vhigar_20210140111_Exe2
                 else
                     Console.WriteLine("\nArray dapat mempunyai maksimal 22 element. \n");
             }
+            Console.WriteLine("");
+            Console.WriteLine("----------------------");
+            Console.WriteLine("Masukkan element Array");
+            Console.WriteLine("----------------------");
         }
     }
 }
