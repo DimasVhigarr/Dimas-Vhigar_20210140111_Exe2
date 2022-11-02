@@ -47,6 +47,22 @@ namespace Dimas_Vhigar_20210140111_Exe2
             Console.WriteLine("");
 
         }
+        public void Method1()
+        {
+            for (int i = 1; i < n; i++)
+            {
+                for (int dv = 0; dv < n - i; dv++)
+                {
+                    if (dimas[dv] < dimas[dv + 1])
+                    {
+                        int temp;
+                        temp = dimas[i];
+                        dimas[dv] = dimas[i - 1];
+                        dimas[dv + 1] = temp;
+                    }
+                }
+            }
+        }
     }
 }
 
