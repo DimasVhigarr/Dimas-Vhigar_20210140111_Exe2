@@ -68,6 +68,8 @@ namespace Dimas_Vhigar_20210140111_Exe2
             Program MyList = new Program();
 
             MyList.read();
+            MyList.display();
+            
             
         }
     }
