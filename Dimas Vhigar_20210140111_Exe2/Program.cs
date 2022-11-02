@@ -10,6 +10,10 @@ namespace Dimas_Vhigar_20210140111_Exe2
     {
         private int[] dimas = new int[22];
         private int n;
+        public void read()
+        {
+
+        }
     }
 }
 
