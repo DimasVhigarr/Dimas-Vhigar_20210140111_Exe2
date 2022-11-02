@@ -26,6 +26,13 @@ namespace Dimas_Vhigar_20210140111_Exe2
             Console.WriteLine("----------------------");
             Console.WriteLine("Masukkan element Array");
             Console.WriteLine("----------------------");
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                dimas[1] = Int32.Parse(s1);
+            }
         }
     }
 }
