@@ -70,7 +70,10 @@ namespace Dimas_Vhigar_20210140111_Exe2
             MyList.read();
             MyList.display();
             MyList.Method1();
-            
+
+            Console.WriteLine("\n\nTekan Mana Saja untuk Keluar");
+            Console.Read();
+
         }
     }
 }
