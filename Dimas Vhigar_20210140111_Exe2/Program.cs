@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Dimas_Vhigar_20210140111_Exe2
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        private int[] dimas = new int[22];
+        private int n;
     }
 }
+
+
